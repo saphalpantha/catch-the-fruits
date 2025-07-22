@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script defer type="module" src="main.js"></script>
+  </head>
+  <body>
+    <div class="canvas-container">
+      <!-- loading screen -->
+      <div class="loading-layout">
+        <h2 class="pulse">Loading...</h2>
+      </div>
+
+      <!-- start screen -->
+      <div class="start-layout hidden">
+        <div class="logo">
+          <h1>Catch The Fruits</h1>
+        </div>
+        <div class="button">
+          <button>Start Game</button>
+        </div>
+      </div>
+
+      <div id="gameOverScreen" class="game-over-layout hidden">
+        <div class="button">
+          <button class="restart-button">Restart</button>
+        </div>
+      </div>
+
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+</html>
